@@ -36,10 +36,14 @@ td{
 }
 
 
-.text_box{
+.text_box,.update_box{
   margin-bottom: 10px;
 }
 
 .text_box p{
   margin: 0px;
+}
+
+.show_title_text p{
+  margin: 33px;
 }
