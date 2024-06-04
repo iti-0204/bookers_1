@@ -25,6 +25,7 @@
 
 <!--新規登録-->
 <h2>New book</h2>
+<%= flash[:notice] %>
 <%= form_with model: @book do |f| %>
   <div class="text_box">
     <p>Title</p>
@@ -34,6 +35,5 @@
     <p>Body</p>
     <%= f.text_area :body %>
   </div>
-
   <%= f.submit 'Create Book' %>
 <% end %>
