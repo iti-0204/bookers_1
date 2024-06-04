@@ -15,13 +15,21 @@
  */
 
 
-
 body{
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   margin: 33px;
 }
+
+.about{
+  margin: 33px;
+}
+
+.about span{
+  font-weight: bold;
+}
+
 
 thead{
   text-align: center;
@@ -46,4 +54,32 @@ td{
 
 .show_title_text p{
   margin: 33px;
+}
+
+.show_title_text p:first-child{
+  color: #008000;
+}
+
+.alert{
+  background-color: #f0f0f0;
+  width: 450px;
+  margin-bottom: 20px;
+}
+
+.alert p{
+  font-weight: bold;
+  border:2px solid red;
+  border-bottom: 0px;
+  padding: 5px 5px 5px 15px;
+  color: #ffffff;
+  background-color: #cc0000;
+  margin: 0px;
+}
+
+.alert ul{
+  padding: 33px 33px 33px 73px;
+  background-color: #f0f0f0;
+  border:2px solid red;
+  border-top: 0px;
+  margin: 0px;
 }
